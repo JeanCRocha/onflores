@@ -1,0 +1,153 @@
+.topo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    z-index:999;
+    background: #fff;
+    height: 200px;
+    text-align: center;   
+}
+#logo1{
+    height: 150px;
+}
+.corpo{
+    
+    position: relative;
+    bottom: 15px;    
+}
+.produtor{
+    background-image: url(Imagens/produtor.jpg);
+    background-position: center;
+    display: -ms-flexbox;
+    -ms-flex-pack: center;
+    -ms-flex-align: center;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-top: 0;
+    min-height: 100vh;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    overflow: hidden;   
+}
+.interessado{
+    background-image: url(Imagens/comrpdor.jpg);
+    display: -ms-flexbox;
+    -ms-flex-pack: center;
+    -ms-flex-align: center;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-top: 0;
+    min-height: 100vh;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    overflow: hidden;  
+}
+#prod-text, #int-text{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+#prod-entrar{   	
+   border-top: 1px solid #19bf00;
+   background: #9cf799;
+   background: -webkit-gradient(linear, left top, left bottom, from(#168714), to(#9cf799));
+   background: -webkit-linear-gradient(top, #168714, #9cf799);
+   background: -moz-linear-gradient(top, #168714, #9cf799);
+   background: -ms-linear-gradient(top, #168714, #9cf799);
+   background: -o-linear-gradient(top, #168714, #9cf799);
+   padding: 17px 34px;
+   -webkit-border-radius: 40px;
+   -moz-border-radius: 40px;
+   border-radius: 40px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 24px;
+   font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;   
+}
+#prod-entrar:hover{    
+   border-top-color: #12c40f;
+   background: #12c40f;
+   color: #f0f0f0;   
+}
+#prod-entrar:active {
+   border-top-color: #6cde6a;
+   background: #6cde6a;
+   }
+#int-entrar{
+   border-top: 1px solid #19bf00;
+   background: #9cf799;
+   background: -webkit-gradient(linear, left top, left bottom, from(#168714), to(#9cf799));
+   background: -webkit-linear-gradient(top, #168714, #9cf799);
+   background: -moz-linear-gradient(top, #168714, #9cf799);
+   background: -ms-linear-gradient(top, #168714, #9cf799);
+   background: -o-linear-gradient(top, #168714, #9cf799);
+   padding: 17px 34px;
+   -webkit-border-radius: 40px;
+   -moz-border-radius: 40px;
+   border-radius: 40px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 24px;
+   font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+}
+#int-entrar:hover{
+    border-top-color: #12c40f;
+   background: #12c40f;
+   color: #f0f0f0;
+}
+#int-entrar:active{
+   border-top-color: #6cde6a;
+   background: #6cde6a;
+}
+.cadastre{
+    text-align: center;
+}
+#cadastro, #cadastro-ent{    
+    display: inline;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+footer{
+    text-align: center;
+}
